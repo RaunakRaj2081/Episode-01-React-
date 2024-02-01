@@ -11,16 +11,16 @@ class About extends Component {
     render() {
         return (
             <div>
-            <h1>About class component</h1>
+            
             <div>
-          LoggedIn User
+          
           <UserContext.Consumer>
             {({ loggedInUser }) => (
               <h1 className="text-xl font-bold">{loggedInUser}</h1>
             )}
           </UserContext.Consumer>
         </div>
-            <h2>This is swiggy website</h2>
+            <h2>This is Foody website</h2>
 
         <UserClass name = {"Raunak Raj (class)"}  location={"Dehradun class"}/>
         </div>

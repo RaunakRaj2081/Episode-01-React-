@@ -19,10 +19,10 @@ const Header = () => {
     return (
         <div className="flex justify-between bg-pink-100 shadow-lg sm:bg-yellow-50  lg:bg-green-50">
             <div className="logo-container">
-                <img className="w-32" src={LOGO_URL}></img>
+                <img className="w-28 ml-4" src={LOGO_URL}></img>
             </div>
             <div className="flex items-center">
-                <ul className="flex p-4 m-4">
+                <ul className="flex p-4 m-2">
                     <li className="px-4">
                         Online status: {onslineStatus ?"✅" : "❌"}
                     </li>
@@ -54,9 +54,9 @@ const Header = () => {
                             
                         {Btns}
                         </button>
-                        <li className="font-bold text-lg ml-3">
+                        {/* <li className="font-bold text-lg ml-3">
                             {loggedInUser}
-                        </li>
+                        </li> */}
                 </ul>
             </div>
         </div>

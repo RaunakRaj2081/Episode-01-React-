@@ -13,7 +13,7 @@ class UserClass extends React.Component {
 };
 
     async componentDidMount() {
-        const data = await fetch("https://api.github.com/users/akshaymarch7");
+        const data = await fetch("https://api.github.com/users/RaunakRaj2081");
         const json = await data.json();
 
         this.setState({
@@ -38,8 +38,7 @@ class UserClass extends React.Component {
             <div className="User-Card">
                 <img src= {avatar_url} />
                 <h2>Name : {name}</h2>
-                <h3>Location : {location} </h3>
-                <h4>Contact : @akshaymarch7</h4>
+                <h4>Contact : raunakraj.2082@gmail.com</h4>
             </div>
         );
     };
